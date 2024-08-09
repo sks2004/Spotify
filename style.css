@@ -239,3 +239,19 @@ a{
     background-color: #1bd760;
     margin-top: -6px;
 }
+
+.resp{
+    display: none;
+}
+
+@media (width<=1100px) {
+    .main{
+        display: none;
+    }
+    .resp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
